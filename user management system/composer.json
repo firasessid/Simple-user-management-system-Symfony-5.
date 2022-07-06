@@ -1,0 +1,31 @@
+{
+  "name": "appaydin/pd-user",
+  "description": "Symfony Simple User Bundle",
+  "homepage": "https://github.com/appaydin/pd-user",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "keywords": [
+    "pd-admin",
+    "pd-user",
+    "account",
+    "symfony-user",
+    "user-management"
+  ],
+  "authors": [
+    {
+      "name": "Ramazan APAYDIN",
+      "homepage": "https://github.com/appaydin"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "twig/twig": "*",
+    "symfony/mailer": "*",
+    "symfony/event-dispatcher": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pd\\UserBundle\\": ""
+    }
+  }
+}
